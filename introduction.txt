@@ -1,0 +1,26 @@
+# Que es node
+- Js en el servidor (Backend)
+- Runtime built V8 Google
+- Uso de sockets comunicacion cliente servidor y viceversa tiempo real
+- File system (Carga simultanea)
+- Rest
+- Entradas y salidas no realizan bloqueos del servidor
+- No bloquea la entrada ni salida (node-blocking no-blocking)
+
+
+# Install nodemon
+# Permite iniciar node y actualizar el servidor y subir la compilacion (Solo desarrollo)
+npm install -g nodemon
+nodemon --version
+nodemon name_file.js
+# cuando ya este inicializado el proyecto de node
+npm install nodemon --save-de
+
+# Inicializar node, genera archivo package.json
+npm init
+// Diligenciar formulario
+// En el archivo package.json en el apartado "scripts": se colocan los comandos personalizados
+npm run name_comand
+
+// "dependencies"
+Se mostraran todos las dependencias de la app

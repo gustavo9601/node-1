@@ -1,0 +1,7 @@
+.idea
+03-console-params/node_modules/*
+03-console-params/node_modules/
+04-colors/node_modules/*
+04-colors/node_modules/
+files/*
+files/
