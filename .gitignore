@@ -5,3 +5,11 @@
 04-colors/node_modules/
 files/*
 files/
+05-app-console-consume-api-weather/node_modules/
+05-app-console-consume-api-weather/node_modules/*
+05-app-console-consume-api-weather/.env
+05-app-console-consume-api-weather/db/database.json
+10-typescript-squlize-mysql/node_modules/
+10-typescript-squlize-mysql/node_modules/*
+10-typescript-squlize-mysql/.env
+node_modules/

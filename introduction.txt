@@ -14,13 +14,40 @@ npm install -g nodemon
 nodemon --version
 nodemon name_file.js
 # cuando ya este inicializado el proyecto de node
-npm install nodemon --save-de
+npm install nodemon --save-dev
 
 # Inicializar node, genera archivo package.json
 npm init
+npm init -y // lo crea configuracion default
 // Diligenciar formulario
 // En el archivo package.json en el apartado "scripts": se colocan los comandos personalizados
 npm run name_comand
 
 // "dependencies"
 Se mostraran todos las dependencias de la app
+
+
+
+# Instalar typescript Global
+npm i -g typescript
+
+# Instalar en el proyecto
+npm i typescript --save-dev
+
+// Ver version de typescript
+tsc --version
+
+// Crea arhivo de configuracion de typescript
+tsc --init
+//Actualizar opciones a:
+    "target": "es6",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "moduleResolution": "node",
+
+// Compilar los archivos ts a js despuesde la configuraicon
+tsc
+// compilando ts a js, y node en diferentes consolas
+tsc --watch
+nodemon dist/file.js
+
