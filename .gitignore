@@ -12,4 +12,5 @@ files/
 10-typescript-squlize-mysql/node_modules/
 10-typescript-squlize-mysql/node_modules/*
 10-typescript-squlize-mysql/.env
+12-rest-server/node_modules/
 node_modules/

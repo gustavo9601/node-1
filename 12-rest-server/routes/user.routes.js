@@ -1,32 +1,16 @@
-const {Router} = require('express')
+const {Router} = require('express');
+const {usuariosGet, usuariosPost, usuariosPut, usuariosDelete} = require('./../controllers/user.controller');
 
 const router = Router();
 
-this.app.get('/hello', (request, response) => {
-    response.json({
-        msg: 'API Get'
-    });
-});
+// Invoca la funcion del controlador
+router.get('/', usuariosGet);
 
-this.app.post('/hello', (request, response) => {
-    response.json({
-        msg: 'API POST'
-    });
-});
+router.post('/', usuariosPost);
 
-this.app.put('/hello', (request, response) => {
-    response.json({
-        msg: 'API PUT'
-    });
-});
+router.put('/:id', usuariosPut);
 
-this.app.delete('/hello', (request, response) => {
-    // Cambian el status code
-    response.status(204).json({
-        msg: 'API DELETE'
-    });
-});
-
+router.delete('/', usuariosDelete);
 
 
 module.exports = router;
